@@ -1,6 +1,6 @@
-# 🚀 CIFAR-10 Classifier (ICSSR Track 2) — 96.4% Test Accuracy
+# CIFAR-10 Classifier (ICSSR Track 2) — 96.4% Test Accuracy
 
-## 📊 Results Summary
+## Results Summary
 | Model | Test Acc | Val Acc | Params |
 |-------|----------|---------|---------|
 | **Baseline CNN** | **78.7%** | 80.1% | 666K |
@@ -9,7 +9,7 @@
 
 **metrics.json** contains full results.
 
-## 🏗️ Technical Approach
+## Technical Approach
 ### Baseline (SmallCNN from scratch)
 - 3 conv blocks (32→64→128 filters)
 - Adam (lr=1e-3), 15 epochs
@@ -20,7 +20,7 @@
 3. **Augmentation**: RandomCrop, Flip, ColorJitter
 4. **Regularization**: Label smoothing (0.1), AdamW
 
-## 📈 Evaluation
+## Evaluation
 - **Train/Val/Test**: 45k/5k/10k (stratified split)
 - **Metrics**: Accuracy, Confusion Matrix, Per-class F1
 - **Seed**: 42 (reproducible)
@@ -29,3 +29,4 @@
 Open `ICSSR.ipynb` in Google Colab (GPU) → Run all cells (~15 mins)
 
 **Full notebook is end-to-end reproducible.**
+
