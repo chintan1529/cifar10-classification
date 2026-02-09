@@ -1,0 +1,17 @@
+{
+  "baseline_test_acc": 0.7873,
+  "resnet_test_acc": 0.964,
+  "classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "improvement": "+22.5%"
+}
